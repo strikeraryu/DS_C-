@@ -196,7 +196,7 @@ public:
         if (this != rhs)
         {
             make_empty();
-            root = colne(rhs);
+            root = clone(rhs);
         }
 
         return *this;
