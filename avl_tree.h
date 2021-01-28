@@ -192,7 +192,7 @@ public:
     // default constructor
     avl_tree()
     {
-        root = new Node();
+        root = NULL;
     }
 
     // copy constructor
