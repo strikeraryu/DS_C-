@@ -73,7 +73,7 @@ private:
             insert(x, t->left);
             if (height(t->left) - height(t->right) == 2)
             {
-                if (x < t->left->element)
+                if (x < t->left->data)
                     rotate_left(t);
                 else
                     double_rotate_left(t);
@@ -84,7 +84,7 @@ private:
             insert(x, t->right);
             if (height(t->right) - height(t->left) == 2)
             {
-                if (x > t->right->element)
+                if (x > t->right->data)
                     rotate_right(t);
                 else
                     double_rotate_right(t);
