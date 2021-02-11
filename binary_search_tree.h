@@ -134,7 +134,7 @@ public:
     // default constructor
     binary_search_tree()
     {
-        root = new Node();
+        root = NULL;
     }
 
     // copy constructor
